@@ -66,7 +66,7 @@ export default function AboutPage() {
         <div className="container mx-auto text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Indafit FitSmart Pro</h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            We're revolutionizing home fitness with cutting-edge technology that brings the gym experience directly to
+            Were revolutionizing home fitness with cutting-edge technology that brings the gym experience directly to
             your living space. Our mission is to make professional-grade fitness accessible to everyone.
           </p>
 
