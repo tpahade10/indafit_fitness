@@ -92,7 +92,7 @@ export default function ProductPage() {
               <Card className="overflow-hidden cursor-pointer hover:ring-2 hover:ring-blue-500">
                 <CardContent className="p-0">
                   <Image
-                    src="/placeholder.svg?height=150&width=200"
+                    src="/placeholder.svg"
                     alt="Product View 2"
                     width={200}
                     height={150}
@@ -103,7 +103,7 @@ export default function ProductPage() {
               <Card className="overflow-hidden cursor-pointer hover:ring-2 hover:ring-blue-500">
                 <CardContent className="p-0">
                   <Image
-                    src="/placeholder.svg?height=150&width=200"
+                    src="/placeholder.svg"
                     alt="Product View 3"
                     width={200}
                     height={150}
@@ -165,7 +165,7 @@ export default function ProductPage() {
               <h3 className="text-lg font-semibold">Key Features:</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• AI-powered personal training with real-time form correction</li>
-                <li>• 22" 4K touchscreen with immersive workout experiences</li>
+                <li>• 22 4K touchscreen with immersive workout experiences</li>
                 <li>• Smart home integration (Alexa, Google, Apple HomeKit)</li>
                 <li>• Electromagnetic resistance system (5-200 lbs)</li>
                 <li>• Live and on-demand classes with certified trainers</li>
@@ -328,7 +328,7 @@ export default function ProductPage() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 FitSmart Pro. All rights reserved.</p>
+            <p> 2024 FitSmart Pro. All rights reserved.</p>
           </div>
         </div>
       </footer>
