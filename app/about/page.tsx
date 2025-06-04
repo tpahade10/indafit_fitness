@@ -64,14 +64,14 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Indafit FitSmart Pro</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">About FitSmart Pro</h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're revolutionizing home fitness with cutting-edge technology that brings the gym experience directly to
             your living space. Our mission is to make professional-grade fitness accessible to everyone.
           </p>
 
           {/* Content Images */}
-          <div className=" mb-16 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <Image
@@ -83,8 +83,8 @@ export default function AboutPage() {
                 />
               </CardContent>
             </Card>
-            {/* <Card className="overflow-hidden"> */}
-              {/* <CardContent className="p-0">
+            <Card className="overflow-hidden">
+              <CardContent className="p-0">
                 <Image
                   src="/placeholder.svg?height=300&width=400"
                   alt="Home Fitness Setup"
@@ -92,8 +92,8 @@ export default function AboutPage() {
                   height={300}
                   className="w-full h-64 object-cover"
                 />
-              </CardContent> */}
-            {/* </Card> */}
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
