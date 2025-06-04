@@ -42,7 +42,7 @@ export default function AboutPage() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-gray-900">FitSmart Pro</div>
+          <div className="text-2xl font-bold text-gray-900">Indafit</div>
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-600 hover:text-gray-900">
               Home
@@ -64,7 +64,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">About FitSmart Pro</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">About Indafit</h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             Were revolutionizing home fitness with cutting-edge technology that brings the gym experience directly to
             your living space. Our mission is to make professional-grade fitness accessible to everyone.
@@ -101,7 +101,7 @@ export default function AboutPage() {
       {/* Features Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">Why Choose FitSmart Pro</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">Why Choose Indafit</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {features.map((feature, index) => (
@@ -241,7 +241,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 FitSmart Pro. All rights reserved.</p>
+            <p>&copy; 2024 Indafit. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -43,7 +43,7 @@ export default function ProductPage() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-gray-900">FitSmart Pro</div>
+          <div className="text-2xl font-bold text-gray-900">Indafit</div>
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-600 hover:text-gray-900">
               Home
@@ -70,7 +70,7 @@ export default function ProductPage() {
               <CardContent className="p-0">
                 <Image
                   src="/placeholder.svg?height=500&width=600"
-                  alt="FitSmart Pro - Main Product"
+                  alt="Indafit - Main Product"
                   width={600}
                   height={500}
                   className="w-full h-96 object-cover"
@@ -118,7 +118,7 @@ export default function ProductPage() {
           <div className="space-y-6">
             <div>
               <Badge className="mb-2">Best Selling</Badge>
-              <h1 className="text-3xl font-bold text-gray-900 mb-2">FitSmart Pro - Smart Home Fitness Machine</h1>
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">Indafit - Smart Home Fitness Machine</h1>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
@@ -328,7 +328,7 @@ export default function ProductPage() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p> 2024 FitSmart Pro. All rights reserved.</p>
+            <p> 2024 Indafit. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -42,7 +42,7 @@ export default function AboutPage() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-gray-900">FitSmart Pro</div>
+          <div className="text-2xl font-bold text-gray-900">Indafit</div>
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-600 hover:text-gray-900">
               Home
