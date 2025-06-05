@@ -24,6 +24,8 @@ export default function AboutPage() {
             <VideoHero />
 <ProductSlider />
 <ProductShowcase />
+<ProductSlider />
+
 <ServicesSection />
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
