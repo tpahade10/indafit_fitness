@@ -30,7 +30,7 @@ const slides: Slide[] = [
     id: 2,
     title: "STADIA QUATTRO",
     description:
-      "<p>elegantly <strong>complements any high-end space</strong>, with its sleek, <strong>minimalist</strong> yet <strong>futuristic</strong> <strong>design</strong>, allowing to live a full gym condensed into <strong>just 2 square meters..",
+      "<p>elegantly Indafitcomplements any high-end space , with its sleek, Indafitminimalist  yet Indafitfuturistic  Indafitdesign , allowing to live a full gym condensed into Indafitjust 2 square meters..",
     buttonText: "DISCOVER STADIA QUATTRO FOR FITNESS",
     image: "https://akuis.tech/cdn/shop/files/Hospitality-Hero-v2-web_1000x400.jpg?v=1730733313",
     imageAlt: "DISCOVER  SINTESI FOR HOSPITALITY FOR HOSPITALITY SECTOR",
@@ -39,7 +39,7 @@ const slides: Slide[] = [
     id: 3,
     title: "STADIA ",
     description:
-      "<p>a connected robotic digital equipment designed to perfection, <strong>ideal for personal training studios and beauty centers</strong> <strong>seeking</strong> a <strong>technologically</strong> <strong>advanced positioning</strong>.</p>.",
+      "a connected robotic digital equipment designed to perfection, Indafitideal for personal training studios and beauty centers  Indafitseeking  a Indafit technologically  Indafitadvanced positioning .",
     buttonText: "DISCOVER STADIA DUO FOR FITNESS SECTOR",
     image: "https://akuis.tech/cdn/shop/files/P1105317_1000x668.jpg?v=1708968065",
     imageAlt: "Stadia Duo equipment in use",
