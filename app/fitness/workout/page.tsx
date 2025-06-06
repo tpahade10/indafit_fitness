@@ -1,3 +1,4 @@
+'use client'
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -24,7 +25,7 @@ export default function Workouts() {
       <header className="bg-cover bg-center h-96 flex items-center justify-center text-white text-center" style={{ backgroundImage: "url('/images/training-header.jpg')" }}>
         <div>
           <h1 className="text-4xl font-bold">Training with Sintesi</h1>
-          <p className="mt-4 text-xl">Enhance your workouts and be amazed at how quickly you'll achieve your goals.</p>
+          <p className="mt-4 text-xl">Enhance your workouts and be amazed at how quickly youll achieve your goals.</p>
         </div>
       </header>
 

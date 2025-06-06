@@ -4,8 +4,24 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuTrigger, DropdownMenuItem } from "@/components/ui/dropdown-menu"
-import { Search, ShoppingCart, User, Menu, ChevronDown, X } from "lucide-react"
+import { ShoppingCart, User, Menu, ChevronDown } from "lucide-react"
 import { useRouter } from "next/navigation"
+
+type NavigationDropdown = {
+  name: string;
+  hasDropdown: true;
+  items: Record<string, string>;
+};
+type NavigationLink = {
+  name: string;
+  hasDropdown: false;
+  url: string;
+};
+type NavigationItem = NavigationDropdown | NavigationLink;
+
+
+
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,14 +38,14 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const handleNavigation = (url: string | undefined) => {
+  const handleNavigation = (url: string) => {
     console.log(`Navigating to: ${url}`)
     router.push(url)
     // In a real app, you would use router.push(url) or window.location.href = url
     // For now, we'll just log the navigation
   }
 
-  const navigationItems = [
+  const navigationItems:NavigationItem[] = [
     {
       name: "PRODUCTS",
       hasDropdown: true,

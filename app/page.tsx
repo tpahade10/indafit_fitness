@@ -1,6 +1,5 @@
 import Link from "next/link"
 import VideoHero from "@/components/video-header"
-import Navbar from "@/components/navbar"
 import ProductSlider from "@/components/product-slider"
 import ProductShowcase from "@/components/product-showcase"
 import ServicesSection from "@/components/services"
