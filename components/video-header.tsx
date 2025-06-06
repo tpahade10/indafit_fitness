@@ -65,7 +65,7 @@ export default function VideoHero() {
             <Button
               variant="outline"
               size="lg"
-              className="border-white  hover:bg-white hover:text-black px-8 py-3 text-sm font-medium tracking-wider uppercase rounded-full min-w-[280px] sm:min-w-[320px]"
+              className="bg-black  hover:bg-white  px-8 py-3 text-sm font-medium tracking-wider uppercase rounded-full min-w-[280px] sm:min-w-[320px]"
             >
               Discover Stadia Duo
             </Button>

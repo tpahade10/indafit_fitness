@@ -15,7 +15,6 @@ export default function AboutPage() {
         {/* <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold text-gray-900">Indafit</div>
            */}
-          <Navbar />
           {/* <Button>Get Started</Button> */}
         {/* </div> */}
       </header>
