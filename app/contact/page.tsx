@@ -5,17 +5,26 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import axios from "axios";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit =async (e: React.FormEvent) => {
     e.preventDefault();
+     try {
+      await axios.post("/api/contact", form);
+      setSubmitted(true);
+    } catch (err) {
+      console.error("Failed to send message:", err);
+      setError("Failed to send message. Please try again.");
+    }
     // Here you would send the form data to your backend or API
     setSubmitted(true);
   };
@@ -33,21 +42,9 @@ export default function ContactPage() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-1 text-gray-300">
-                  Name
-                </label>
-                <Input
-                  id="name"
-                  name="name"
-                  type="text"
-                  placeholder="Your Name"
-                  value={form.name}
-                  onChange={handleChange}
-                  required
-                  className="bg-gray-800 border-gray-700 text-white placeholder-gray-500"
-                />
-              </div>
+   {error && (
+                <div className="text-red-500 text-center">{error}</div>
+              )}
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-1 text-gray-300">
                   Email

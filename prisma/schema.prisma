@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  address   String
+  number    String
+  userType  String   // 'user' or 'admin'
+  createdAt DateTime @default(now())
+}
+
+model Contact {
+  id        String   @id @default(uuid())
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model Workout {
+  id        String   @id @default(uuid())
+  name      String
+  gifUrl    String
+  workoutType String
+  createdAt DateTime @default(now())
+}
+model Reviews {
+  id        String   @id @default(uuid())
+  email     String
+  message   String
+}
